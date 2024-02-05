@@ -55,7 +55,7 @@ configure_component(
     tesseract_common
     yaml-cpp
     octomap
-    "Boost COMPONENTS system program_options serialization"
+    "Boost 1.74 EXACT COMPONENTS system program_options serialization"
   CFG_EXTRAS cmake/core-extras.cmake)
 
 if(TESSERACT_PACKAGE)
