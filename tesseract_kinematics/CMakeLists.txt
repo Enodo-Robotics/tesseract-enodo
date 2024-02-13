@@ -57,12 +57,12 @@ set(SUPPORTED_COMPONENTS core)
 add_subdirectory(core)
 
 # IKFast
-option(TESSERACT_BUILD_IKFAST "Build IKFast components" OFF)
-if(TESSERACT_BUILD_IKFAST)
-  message("Building IKFast components")
-  list(APPEND SUPPORTED_COMPONENTS ikfast)
-  add_subdirectory(ikfast)
-endif()
+# option(TESSERACT_BUILD_IKFAST "Build IKFast components" ON)
+# if(TESSERACT_BUILD_IKFAST)
+#   message("Building IKFast components")
+#   list(APPEND SUPPORTED_COMPONENTS ikfast)
+#   add_subdirectory(ikfast)
+# endif()
 
 # KDL
 option(TESSERACT_BUILD_KDL "Build KDL components" ON)
@@ -73,20 +73,20 @@ if(TESSERACT_BUILD_KDL)
 endif()
 
 # OPW
-option(TESSERACT_BUILD_OPW "Build OPW components" OFF)
-if(TESSERACT_BUILD_OPW)
-  message("Building OPW components")
-  list(APPEND SUPPORTED_COMPONENTS opw)
-  add_subdirectory(opw)
-endif()
+# option(TESSERACT_BUILD_OPW "Build OPW components" ON)
+# if(TESSERACT_BUILD_OPW)
+#   message("Building OPW components")
+#   list(APPEND SUPPORTED_COMPONENTS opw)
+#   add_subdirectory(opw)
+# endif()
 
 # UR
-option(TESSERACT_BUILD_UR "Build UR components" OFF)
-if(TESSERACT_BUILD_UR)
-  message("Building UR components")
-  list(APPEND SUPPORTED_COMPONENTS ur)
-  add_subdirectory(ur)
-endif()
+# option(TESSERACT_BUILD_UR "Build UR components" ON)
+# if(TESSERACT_BUILD_UR)
+#   message("Building UR components")
+#   list(APPEND SUPPORTED_COMPONENTS ur)
+#   add_subdirectory(ur)
+# endif()
 
 # Add compiler definition to core so it can find all plugins produced
 string(
