@@ -57,7 +57,7 @@ set(SUPPORTED_COMPONENTS core)
 add_subdirectory(core)
 
 # IKFast
-option(TESSERACT_BUILD_IKFAST "Build IKFast components" ON)
+option(TESSERACT_BUILD_IKFAST "Build IKFast components" OFF)
 if(TESSERACT_BUILD_IKFAST)
   message("Building IKFast components")
   list(APPEND SUPPORTED_COMPONENTS ikfast)
@@ -73,7 +73,7 @@ if(TESSERACT_BUILD_KDL)
 endif()
 
 # OPW
-option(TESSERACT_BUILD_OPW "Build OPW components" ON)
+option(TESSERACT_BUILD_OPW "Build OPW components" OFF)
 if(TESSERACT_BUILD_OPW)
   message("Building OPW components")
   list(APPEND SUPPORTED_COMPONENTS opw)
@@ -81,7 +81,7 @@ if(TESSERACT_BUILD_OPW)
 endif()
 
 # UR
-option(TESSERACT_BUILD_UR "Build UR components" ON)
+option(TESSERACT_BUILD_UR "Build UR components" OFF)
 if(TESSERACT_BUILD_UR)
   message("Building UR components")
   list(APPEND SUPPORTED_COMPONENTS ur)
