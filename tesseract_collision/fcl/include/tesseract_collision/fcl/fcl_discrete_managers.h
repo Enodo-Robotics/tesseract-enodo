@@ -88,6 +88,8 @@ public:
 
   bool isCollisionObjectEnabled(const std::string& name) const override final;
 
+  Eigen::Isometry3d getCollisionObjectTransform(const std::string& name);
+
   void setCollisionObjectsTransform(const std::string& name, const Eigen::Isometry3d& pose) override final;
 
   void setCollisionObjectsTransform(const std::vector<std::string>& names,
