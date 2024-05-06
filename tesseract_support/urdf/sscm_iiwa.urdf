@@ -9,149 +9,149 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/base_link.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/base_link.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/base_link.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/base_link.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_1">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_1.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_1.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_1.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_1.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_2">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_2.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_2.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_2.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_2.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_3">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_3.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_3.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_3.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_3.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_4">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_4.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_4.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_4.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_4.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_5">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_5.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_5.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_5.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_5.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_6">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_6.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_6.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_6.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_6.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="link_7">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/link_7.dae"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/link_7.dae"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/link_7.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/link_7.stl"/>
       </geometry>
-    </collide>
+    </collision>
   </link>
   <link name="tool0">
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/tool0/tool0_0.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/tool0/tool0_0.stl"/>
       </geometry>
     </visual>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/tool0/tool0_1.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/tool0/tool0_1.stl"/>
       </geometry>
     </visual>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/visual/tool0/tool0_2.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/visual/tool0/tool0_2.stl"/>
       </geometry>
     </visual>
-    <collide>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/tool0/tool0_0.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/tool0/tool0_0.stl"/>
       </geometry>
-    </collide>
-    <collide>
+    </collision>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/tool0/tool0_1.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/tool0/tool0_1.stl"/>
       </geometry>
-    </collide>
-    <collide>
+    </collision>
+    <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://tesseract_support/meshes/iiwa14/collide/tool0/tool0_2.stl"/>
+        <mesh filename="package://tesseract_support/meshes/sscm_iiwa/collision/tool0/tool0_2.stl"/>
       </geometry>
     </collide>
   </link>
