@@ -9,9 +9,11 @@ if(WIN32)
   set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 endif()
 
+set(Boost_NO_BOOST_CMAKE ON)
+
 # All of these are used by all components so to avoid having them in each they are include here
 find_package(Eigen3 REQUIRED)
-find_package(Boost REQUIRED COMPONENTS system program_options serialization)
+find_package(Boost 1.74 EXACT REQUIRED COMPONENTS system program_options serialization)
 find_package(octomap REQUIRED)
 find_package(console_bridge REQUIRED)
 find_package(tesseract_geometry REQUIRED)
