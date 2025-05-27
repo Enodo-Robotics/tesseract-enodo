@@ -174,6 +174,17 @@ bool FCLDiscreteBVHManager::isCollisionObjectEnabled(const std::string& name) co
   return false;
 }
 
+Eigen::Isometry3d FCLDiscreteBVHManager::getCollisionObjectTransform(const std::string& name)
+{
+  auto it = link2cow_.find(name);
+  if (it != link2cow_.end()) {
+    return it->second->getCollisionObjectsTransform();
+  }
+    
+  std::cout << "FCLDiscreteBVHManager: Link name '" << name << "' does not exist!" << std::endl;
+  return Eigen::Isometry3d::Identity();
+}
+
 void FCLDiscreteBVHManager::setCollisionObjectsTransform(const std::string& name, const Eigen::Isometry3d& pose)
 {
   auto it = link2cow_.find(name);
