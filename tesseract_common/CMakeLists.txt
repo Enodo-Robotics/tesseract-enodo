@@ -14,7 +14,7 @@ list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 
 if(NOT APPLE)
   find_package(
-    Boost 1.78 EXACT REQUIRED
+    Boost 1.74 EXACT REQUIRED
     COMPONENTS system
                filesystem
                serialization
